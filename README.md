@@ -17,3 +17,7 @@ To use the provided binary DLL files just download them raw and drop them into t
 
 * encrypt.dll is for 32bit
 * encrypt_64.dll is for 64bit
+
+----
+
+## Original credit goes to the Unknown6 team for figuring this out and the raw files came from http://pgoapi.com/pgoencrypt.tar.gz - I claim nothing more than compiling the binary dll files and adding the build_dll.bat file.
