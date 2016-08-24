@@ -25,7 +25,7 @@ To build this on Windows you need Visual Studio and the provided Visual Studio C
 #### Build 32bit DLL
 
 * Open `VS2015 x86 Native Tools Command Prompt`
-* Run `build_dll.dll`
+* Run `build_dll.bat`
 
 ## Credit
 
