@@ -1,15 +1,33 @@
 ## Binary Files
 
-To use the provided binary DLL files just download them using the links below and put them in the required location.
+To use the provided binary DLL and SO files for select operating systems. Just download them using the links below and put them in the required location.
 
-* encrypt.dll is for 32bit ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/encrypt.dll "encrypt.dll"))
-* encrypt_64.dll is for 64bit ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/encrypt_64.dll "encrypt_64.dll"))
+**Windows**
+
+* encrypt.dll for 32bit Windows ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/Windows/encrypt.dll "encrypt.dll"))
+* encrypt_64.dll for 64bit Windows ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/Windows/encrypt_64.dll "encrypt_64.dll"))
+
+**macOS**
+
+* encrypt.so for macOS ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/macOS/encrypt.so "encrypt.so"))
+
+**Ubuntu**
+
+* encrypt.so for 64bit Ubuntu ([Direct Link](https://github.com/OfficialRepo/PokiLib/raw/master/Ubuntu/encrypt.so "encrypt.so"))
 
 ## Building
 
-### Linux
+### Building in Linux or macOS
 
-To build this on Linux/macOS just run clone this repo and run `make`
+*If you need encrypt.so for an operating system we do not currently provide for then you will have to compile it yourself using these directions:*
+
+```
+git clone https://github.com/OfficialRepo/PokiLib.git
+cd PokiLib
+make
+```
+
+You will no have an `encrypt.so` file that you can copy to the required location.
 
 ### Windows
 
